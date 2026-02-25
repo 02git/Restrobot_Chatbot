@@ -3,8 +3,7 @@
 RestroBot is an intent classification chatbot built using TensorFlow and deployed using Streamlit.  
 The model is trained on a custom dataset and performs real-time intent prediction to generate contextual responses.
 
-🔗 Live Demo: (Add your Streamlit URL here)
-
+🔗 Live Demo: https://restrobotchatbot19238.streamlit.app/
 ---
 
 ## 🚀 Features
@@ -107,3 +106,10 @@ The deployed version runs on CPU and loads the pre-trained model for inference.
 ## 📄 License
 
 This project is for educational and portfolio purposes.
+
+## 🔬 Future Improvements
+
+- Replace Bag-of-Words with word embeddings
+- Upgrade model to LSTM / Transformer architecture
+- Add database-backed conversation logging
+- Deploy with Docker
