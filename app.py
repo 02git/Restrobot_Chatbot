@@ -7,6 +7,10 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 import tensorflow as tf
 
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('wordnet')
+
 lemmatizer = WordNetLemmatizer()
 
 # Load model and assets
