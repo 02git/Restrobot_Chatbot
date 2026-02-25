@@ -28,21 +28,23 @@ The model is trained on a custom dataset and performs real-time intent predictio
 ---
 
 ## 🏗️ Project Structure
+
+```bash
 restrobot-chatbot/
 │
-├── app.py # Streamlit web application
+├── app.py                 # Streamlit web application
 ├── src/
-│ ├── train.py # Model training pipeline
-│ └── predict.py # Standalone prediction logic
+│   ├── train.py           # Model training pipeline
+│   └── predict.py         # Standalone prediction logic
 ├── models/
-│ ├── chatbot_model.keras
-│ ├── words.pkl
-│ └── classes.pkl
+│   ├── chatbot_model.keras
+│   ├── words.pkl
+│   └── classes.pkl
 ├── data/
-│ └── Chatbot_Dataset.json
+│   └── Chatbot_Dataset.json
 ├── requirements.txt
 └── README.md
----
+```
 
 ## ⚙️ How It Works
 
@@ -99,7 +101,10 @@ The deployed version runs on CPU and loads the pre-trained model for inference.
 
 ## 📷 Screenshots
 
-(Add screenshots of your Streamlit UI here)
+<img width="1008" height="897" alt="image" src="https://github.com/user-attachments/assets/eb05c895-2485-435a-ba98-e337956f7316" />
+<img width="797" height="879" alt="image" src="https://github.com/user-attachments/assets/c54fef33-9ee0-482a-9bfc-f91efda87759" />
+<img width="766" height="792" alt="image" src="https://github.com/user-attachments/assets/634d197c-315e-484f-80df-bc985b69923c" />
+
 
 ---
 
